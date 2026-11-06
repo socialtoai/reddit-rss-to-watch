@@ -1,0 +1,13 @@
+{
+  "name": "reddit-rss-to-watch",
+  "version": "1.0.0",
+  "description": "Turn Reddit .rss addresses or an OPML export into daily watches with private feed addresses for your reader.",
+  "type": "module",
+  "bin": { "reddit-rss-to-watch": "./reddit-rss-to-watch.mjs" },
+  "scripts": { "test": "node --test test.mjs" },
+  "engines": { "node": ">=18" },
+  "license": "MIT",
+  "author": "SocialToAI team",
+  "homepage": "https://socialtoai.com/",
+  "repository": "github:socialtoai/reddit-rss-to-watch"
+}
